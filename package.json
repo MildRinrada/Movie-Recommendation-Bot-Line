@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "csv-parser": "^3.0.0",
+    "data.js": "^0.12.11",
+    "dialogflow-fulfillment": "github:dialogflow/dialogflow-fulfillment-nodejs#master",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase-functions": "^4.0.2",
+    "node-fetch": "^3.2.6",
+    "node-sheets": "^1.2.0"
+  },
+  "type": "module"
+}
